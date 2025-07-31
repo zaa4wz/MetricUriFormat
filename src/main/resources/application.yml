@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: MetricUriFormat
+
+management:
+  endpoints:
+    access:
+      default: none
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - metrics
+  endpoint:
+    health:
+      access: read_only
+    info:
+      access: read_only
+    metrics:
+      access: read_only
