@@ -49,7 +49,7 @@ public class TestService {
     printRegisterUris();
     removeMetrics();
 
-    log.info("HttpClient");
+    log.info("HTTP Interface");
     testHttpClient.getHelloWord();
     testHttpClient.getHelloWordVariable(1);
     testHttpClient.getHelloWordVariable(2);

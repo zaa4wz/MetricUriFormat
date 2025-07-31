@@ -16,7 +16,7 @@ Registered URIs:
 /hello-word-variable/{id}
 /hello-word-param?id={id}
 
-HttpClient
+HTTP Interface
 Registered URIs:
 /hello-word
 /hello-word-variable/{id}
